@@ -1,0 +1,13 @@
+{
+    "//": "Do not commit your token. You can set this value via the command line",
+    "//": "`vapor run --config:slack.token=<my_slack_token>`",
+    "//": "https://docs.vapor.codes/2.0/configs/config/#command-line",
+    "//": "You could also place it in Config/secrets/slack.json",
+    "//": "https://docs.vapor.codes/2.0/configs/config/#priority",
+    "token": "intentionally_bad",
+    
+    "//": "If your slack app exposes a webhook, you can ",
+    "webhooks": {
+        "scheduledCommand": "intentionally_bad_url"
+    }
+}

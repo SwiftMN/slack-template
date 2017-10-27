@@ -1,1 +1,7 @@
+type: "vapor"
 swift_version: "4.0.0"
+cronjobs:     
+  production:
+    scheduledCommand:
+      time: "0 14 * * *"
+      command: "scheduledCommand"

@@ -8,6 +8,8 @@ extension Config {
 
         try setupProviders()
         try setupPreparations()
+
+        addConfigurable(command: ScheduledCommand.init, name: "scheduledCommand")
     }
     
     /// Configure providers
@@ -18,6 +20,6 @@ extension Config {
     /// Add all models that should have their
     /// schemas prepared before the app boots
     private func setupPreparations() throws {
-        preparations.append(Post.self)
+
     }
 }

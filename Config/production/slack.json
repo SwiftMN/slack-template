@@ -1,0 +1,6 @@
+{
+    "//": "If you are deploying with Vapor Cloud, you can set this value using the CLI",
+    "//": "`vapor cloud config modify PRODUCTION_SLACK_TOKEN=<production_slack_token>`",
+    "//": "https://docs.vapor.cloud/configuration/vapor/custom-config/#cli",
+    "token": "$PRODUCTION_SLACK_TOKEN"
+}
